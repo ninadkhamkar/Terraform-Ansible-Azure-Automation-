@@ -1,0 +1,20 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+
+# Credentials - never commit real secrets
+credentials
+.azure/
+
+# SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# OS / editor files
+.DS_Store
+.vscode/
